@@ -83,3 +83,9 @@ body{
   font-weight: 700;
 }
 
+.fat-percentual {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin: 30px 15px 0 15px;
+}
