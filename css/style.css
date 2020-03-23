@@ -60,6 +60,9 @@ body{
   margin-bottom: 8px;
 }
 
+.form-group span {
+  font-size: 10px;
+}
 .form-control {
   border: none;
   border-radius: 10px;
@@ -81,5 +84,12 @@ body{
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 700;
+}
+
+.type-of-mass {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
 }
 
