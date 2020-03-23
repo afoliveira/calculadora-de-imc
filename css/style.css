@@ -1,0 +1,85 @@
+/* Reset */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, fieldset, form, label, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+  border: 0;
+}
+
+
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  font-family: 'Barlow', sans-serif ;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Calculator IMC */
+
+.bg-principal {
+  background: linear-gradient(to bottom, #84FAB0,#8FD3F4);
+  max-width: 300px;
+  height: 530px;
+  margin: auto;
+  border: 1px solid #fff;
+}
+
+.calculator-header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form-group {
+ margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 255px;
+}
+
+ .form-buttons {
+  margin: 0 auto;
+  width: 200px;
+ }
+
+.btn {
+  background: linear-gradient(to bottom, #89F7FE,#66A6FF);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+}
+

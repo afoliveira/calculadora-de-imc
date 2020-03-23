@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Afonso Oliveira">
+    <meta name="description" content="Uma simples calculadora para medir seu IMC">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"  type="text/css">
+  </head>
+  <body>
+    <main>
+      <div class="bg-principal">
+        <header class="calculator-header">
+          <h1>Calculadora Imc</h1>
+        </header>
+        <form>
+          <div class="form-column">
+            <div class="form-group">
+              <label for="height">Altura <span>ex.:(1,70)</span></label>
+              <input type="text" class="form-control"  name="height" id="height">
+            </div>
+            <div class="form-group">
+              <label for="kilogram">Peso <span>ex.:(82,5)</span></label>
+              <input type="text" class="form-control"  name="kilogram" id="kilogram">
+            </div>            
+            <div class="form-group">
+              <label for="imc">IMC</label>
+              <input type="text" class="form-control" name="imc" id="imc" disabled>
+            </div>
+          </div>
+          <div class="form-buttons">
+            <button type="button" class="btn" id="calculate" onclick="iniciarCalculo()">Calcular</button>
+            <button type="button" class="btn" id="clear" onclick="limpar()">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
