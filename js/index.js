@@ -41,7 +41,7 @@ function addFatPercentual(totalImc) {
   if(totalImc < 18.5) {
     paragraph = 'Você está com Magreza, bora tomar uns NAN, comer melhor';
    } else if (totalImc > 18.5 && totalImc < 24.9) {
-    paragraph = 'Você está com o indice Normal, boa jovem Padwan ';
+    paragraph = 'Você está com o indice Normal, boa jovem Padawan ';
   } else if (totalImc > 25 && totalImc < 29.9) {
     paragraph = 'Você está com Sobrepeso, abre o olho jovem';
   } else if (totalImc > 30 && totalImc < 39.9) {
